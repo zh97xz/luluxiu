@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+	int m = 90;
+	int i;
+	printf("%d=",m);
+	for (i = 2; i <m; i++)
+	{
+		
+		while (m % i == 0)
+		{
+			
+			printf("%d*", i);
+			m = m / i;
+
+		}
+	
+	 }
+	if (m == i)
+		{
+			printf("%d\n", i);
+	     }	
+	return 0;
